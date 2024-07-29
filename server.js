@@ -5,7 +5,7 @@ server.get("/", (req, res) => {
   res.send("<h1>Olá ExpressJS.</h1>");
 });
 server.get("/sobre", (req, res) => {
-  res.send("<h2>Somos quem podemos ser.</h2>");;
+  res.send("<h2>Somos quem podemos ser.</h2>");
 });
 
 server.get("/json", (req, res) => {
